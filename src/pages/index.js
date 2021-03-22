@@ -11,7 +11,7 @@ console.log(locations)
 const IndexPage = () => (
   <Layout>
     <SEO title="Latest car map uk spots" />
-    <div style={{ display: "flex", flexWrap: "wrap", margin: "auto -20px" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", width: "100%", textAlign:"center" }}>
       {locations.map(Card)}
     </div>
   </Layout>
