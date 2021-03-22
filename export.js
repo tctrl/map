@@ -5,8 +5,8 @@ const is = require('instagram-save');
 
 const LOCATIONS_PATH = `${cwd}/locations`;
 const SRC_PATH = `${cwd}/src`
-const INSTA_PATH = `${cwd}/public/insta`;
-const TEMP_PATH = `${cwd}/public/insta-temp`;
+const INSTA_PATH = `${cwd}/static`;
+const TEMP_PATH = `${cwd}/static-temp`;
 
 const locations = fs.readdirSync(LOCATIONS_PATH).map(file => {
   const location = fs.readJsonSync(`${LOCATIONS_PATH}/${file}`);
