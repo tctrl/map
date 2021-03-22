@@ -1,0 +1,34 @@
+.card {
+  box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 10%);
+  transition: box-shadow .3s ease,transform .3s ease;
+  background-color: #161B22;
+  border-radius:.5rem;
+  padding:10px;
+  margin:15px;
+  border:1px solid #30363D;
+
+  h3 {
+    color:white;
+    line-height: 1;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    text-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.6);
+    margin: 0px;
+    bottom:10px;
+    position:absolute;
+  }
+}
+
+.backgroundImage {
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+  padding:10px;
+  min-width:240px;
+  min-height:240px;
+}
